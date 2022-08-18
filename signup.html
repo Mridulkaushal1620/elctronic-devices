@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>electrons.com sign up</title>
+</head>
+<script>
+    function popup(){
+        document.getElementById("submit").innerHTML = alert('signup succesfull');
+    }
+</script>
+<style>
+    html {
+        background-color:#243951;
+    }
+
+    .form {
+        background-color: #85bfcb;
+        margin-top: 5%;
+        margin-left: 200px;
+        margin-right: 200px;
+        border: solid black;
+        padding: 10px;
+        position: relative;
+        
+    }
+
+    fieldset{
+        border: solid black;
+        margin: 5px;
+        margin-right: 5px;
+    }
+    .legend{
+        font-size: 30px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .name {
+        background-color: #85bfcb;
+        text-align: center;
+        font-size: 90px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 5px;
+        border: solid;
+        border-color: green;
+    }
+    .nav{
+        margin:10px;
+        margin-left: 35%;
+    }
+    a{
+        border: 2px solid black;
+        margin: 50px;
+    }
+    .input{
+        color: darkslategray;
+        border-block: 5px;
+        background-color: beige;
+    }
+    #home{
+        color: aliceblue;
+    }
+
+</style>
+
+<body>
+    <header>
+        <h1 class="name">Electrons.com</h1>
+    </header>
+    <main>
+    <form class="form">
+        <fieldset>
+            <legend class="legend">sign up</legend>
+            <input type="text" name="fname" placeholder="First name" class = "input">
+
+            <input type="text" name="lname" placeholder="Last name" class = "input"><br>
+            email<br>
+            <input type="email" name="emial" class = "input"><br>
+            contact number<br>
+            <input type="text" name="contact number" class = "input"><br>
+            password<br>
+            <input type="password" name="password" class = "input"><br>
+            D.O.B<br>
+            <input type="date" name="D.O.B" class = "input"><br>
+
+            <input type="radio" name="sex" class = "input">male
+            <input type="radio" name="sex" class = "input">female
+
+
+
+            <button type="submit" id="submit" class = "input" onclick="popup()">Submit</button>
+        </fieldset>
+    </form>
+</main>
+<nav class="nav">
+    <a href="home.html" id="home">Home</a>
+    <button>Already had an acccount</button>
+</nav>
+<footer>
+
+</footer>
+</body>
+
+</html>

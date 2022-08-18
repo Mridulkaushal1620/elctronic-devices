@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        electrons.com
+    </title>
+</head>
+<script>
+    var myasus =   `Dimensions (W x H x D) with Stand. Approx. 958 x 600 x 170 mm. Weight with Stand. Approx. 11.7 Kg. Standby Power Consumption. 0.5W. Power Requirements. DC 19.5V.
+                    Power Consumption. 88W. Dimensions (W x H x D) without Stand. Approx. 958 x 563 x 64 (15.8) mm. Weight without Stand. Approx. 10.5 kg.`
+
+    var mygigabyte = `Dimensions (W x H x D) with Stand. Approx. 958 x 600 x 170 mm. Weight with Stand. Approx. 11.7 Kg. Standby Power Consumption. 0.5W. Power Requirements. DC 19.5V.
+                    Power Consumption. 88W. Dimensions (W x H x D) without Stand. Approx. 958 x 563 x 64 (15.8) mm. Weight without Stand. Approx. 10.5 kg.`
+
+    var mygodrage =`Width	45.2
+                    Height	26.2
+                    Depth	39.5
+                    Turntable Diameter	24.5 cm
+                    Weight	12.00 kg`
+
+    var myiphone = ` Display. 6.1 inches. 2532 x 1170 pixels. 60Hz Refresh rate.
+                    Camera. 12 MP (Dual camera) 12 MP front.
+                    Hardware. Apple A15 Bionic. 4GB RAM.
+                    Storage. 128GB, not expandable.
+                    Battery. 3227 mAh.
+                    OS. iOS 15.x.`
+
+
+    var mysony = `Dimensions (W x H x D) with Stand. Approx. 958 x 600 x 170 mm. Weight with Stand. Approx. 11.7 Kg. Standby Power Consumption. 0.5W. Power Requirements. DC 19.5V.
+                    Power Consumption. 88W. Dimensions (W x H x D) without Stand. Approx. 958 x 563 x 64 (15.8) mm. Weight without Stand. Approx. 10.5 kg.`
+    function change(){
+        document.getElementById("asusimg").innerHTML= myasus;
+                   
+    }
+    function change1(){
+        document.getElementById("gigabyteimg").innerHTML= mygigabyte;
+                   
+    }
+    function change2(){
+        document.getElementById("godrajimg").innerHTML= mygodrage;
+                   
+    }
+    function change3(){
+        document.getElementById("iphoneimg").innerHTML= myiphone;
+                   
+    }
+    function change4(){
+        document.getElementById("sonyimg").innerHTML= mysony;
+                   
+    }
+</script>
+
+<style>
+    .name {
+        background-color: #85bfcb;
+        text-align: center;
+        font-size: 90px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 5px;
+        border: solid;
+        border-color: green;
+    }
+
+    .nameimg {
+        width: 100%;
+    }
+
+    .pages {
+        background-color: #85bfcb;
+        text-align: right;
+        margin-left: 20px;
+    }
+
+    .cathead {
+        background-color: #85bfcb;
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 20px;
+    }
+
+    .catagory {
+        border: 3px solid gray;
+        margin: auto;
+        padding: 6px 3px;
+        background-color: #85bfcb;
+    }
+
+    .items {
+        border: 3px solid gray;
+        margin: 20px 10px;
+        padding: 6px 3px;
+        background-color:#85bfcb;
+    }
+
+    .text {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #television {
+        float: left;
+        width: 45%;
+    }
+
+    #pc {
+        float: left;
+        width: 45%;
+    }
+
+    #oven {
+        float: left;
+
+        width: 45%;
+    }
+
+    #laptop {
+        float: left;
+
+        width: 45%;
+    }
+
+    #smartphone {
+        clear: both;
+        margin-right: 95px;
+    }
+
+    #itemhead {
+        background-color: #85bfcb;
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 20px;
+    }
+    .bestitem{
+        border: 3px solid gray;
+        margin: auto;
+        padding: 6px 3px;
+        background-color:#85bfcb;
+    }
+    .best{
+        border: 3px solid gray;
+        margin: 20px 10px;
+        padding: 6px 3px;
+        background-color:#85bfcb;
+    }
+    .besttext{
+        text-align: center;
+        color: rgb(10, 10, 30);
+        border: solid black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        clear: both;
+    }
+    .footer{
+        background-color:#85bfcb;
+        text-align: center;
+        border: 5px solid rgb(131, 131, 236);
+        margin:50px;
+        padding: 20px;
+    }
+    #asustext{
+        clear: both;
+    }
+    .asuss{
+        float: left;
+    }
+    .imgg{
+        text-align: right;
+    }
+    #gigabyte{
+        clear: both;;
+    }
+    
+    body{
+        background-color:#243951;
+    }
+</style>
+
+<body>
+    <header>
+        <h1 class="name">Electrons.com</h1>
+        <br>
+        <img class="catimg" src="tvcat.webp" alt="" width="100%">
+    </header>
+    <div class="navigation">
+        <nav class="pages">
+            <a href="home.html">Home</a>
+            <a href="signup.html">Sign up</a>
+            <a href="demo.html">Demo</a>
+        </nav>
+    </div>
+    <main>      
+        <h2 class="cathead">Select the category </h2>
+
+        <div class="catagory">
+            <div id="television" class="items">
+                
+                <img src="television.png" alt="Television" height="150px">
+                
+                <br>
+                <p id="televisiontext" class="text">samsung</p>
+            </div>
+            <div id="pc" class="items">
+                <img src="redmetv.png" alt="Television" height="150px"><br>
+                <p id="pctext" class="text">Redmi</p>
+            </div>
+            <div id="oven" class="items">
+                <img src="sonytv.png" alt="Television" height="150px"><br>
+                <p id="oventext" class="text">Sony</p>
+            </div>
+            <div id="laptop" class="items">
+                <img src="realmetv.png" alt="Television" height="150px"><br>
+                <p id="laptoptext" class="text">Realme</p>
+            </div>
+            <div id="smartphone" class="items">
+                <img src="vutv.png" alt="Television" height="150px"><br>
+                <p id="smartphonetext" class="text">VU</p>
+            </div>
+        </div>
+
+        <h2 id="itemhead">Best rated Television by customers</h2>
+        <div class="bestitem">
+            <div id="asus" class="best">
+                <div class="asuss">
+                <img src="sonybravia.png" alt="asus"  onmousemove="change()" height="300px" width="500px">
+                </div>
+                <pre id="asusimg" class="imgg">
+                </pre>
+                <p id="asustext" class="besttext" >Sony bravia</p>
+            </div>
+            <div id="gigabyte" class="best">
+                <div class="asuss">
+                <img src="samsungoled.png" alt="gigabyte" onmousemove="change1()" height="300px" width="500px">
+                </div>
+                <pre id="gigabyteimg" class="imgg">
+                    
+                </pre>
+                <p id="gigabytetext" class="besttext">Samsung oled</p>
+            </div>
+           
+
+        </div>
+
+    </main>
+    <footer class="footer">
+            <a href="aboutus.html">About us</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="">Contact us</a>
+    </footer>
+
+</body>
+
+</html>
